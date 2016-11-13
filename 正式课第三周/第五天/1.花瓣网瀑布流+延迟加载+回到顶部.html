@@ -112,7 +112,7 @@
         tmpImg.onload=function(){
             img.src=this.src;
             tmpImg=null;
-            img.parentNode.style.height='auto';
+            img.parentNode.style.height=img.offsetHeight+'px';
             img.loaded=true;
         }
     }
