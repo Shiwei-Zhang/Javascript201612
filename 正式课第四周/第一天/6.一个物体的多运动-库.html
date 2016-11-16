@@ -26,14 +26,21 @@
 <div id="div"></div>
 <div id="target"></div>
 <script src="js/utils.js"></script>
-<script src="js/move2.js"></script>
+<script src="move2.js"></script>
 <script>
     var oDiv=document.getElementById('div');
-    animate(oDiv,{
-        left:1200,
-        top:400
-    },2000,function(){
-        this.style.background='green';
+    animate({
+        id:oDiv,
+        target:{
+            left:1200,
+            top:400,
+        },
+        callback:function(){
+            console.log(this);
+            this.style.background='green';
+        },
+        effect:3,
+        duration:2000
     })
 </script>
 </body>
