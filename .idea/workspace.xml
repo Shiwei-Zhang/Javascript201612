@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc3c608-3035-49c2-9d44-2866d56d76f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/apple_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/apple_1_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/apple_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/apple_2_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/apple_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/apple_3_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/apple_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/apple_4_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/bd_logo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/iphone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/iphone_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/img/事件池.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/img/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/img/banner2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/img/banner3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/img/banner4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/img/default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/img/error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/img/pre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/1.渐隐渐现轮播图-jquery构造函数版.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/2.复习回到顶部-点击立即隐藏版.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/jquery-2.0.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/move.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/toTop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/json/data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/json/data2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/index.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第四周/move2.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/toTop.js" afterPath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/toTop.js" />
     </list>
     <ignored path="12期JS正式课.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,62 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="1.渐隐渐现轮播图-jquery构造函数版.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/1.渐隐渐现轮播图-jquery构造函数版.html">
+      <file leaf-file-name="event.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/正式课第五周/event.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.425731">
+              <caret line="7" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/正式课第五周/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.8679247">
-              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/tab.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="157" column="1" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc;n#Tab#0" expanded="false" />
-                <element signature="e#1227#1568#0" expanded="false" />
-                <element signature="e#1589#2087#0" expanded="false" />
-                <element signature="e#2111#2486#0" expanded="false" />
-                <element signature="e#2511#2636#0" expanded="false" />
-                <element signature="e#3054#3348#0" expanded="false" />
-                <element signature="e#3372#3880#0" expanded="false" />
-                <element signature="e#3909#4055#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.复习回到顶部-点击立即隐藏版.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/2.复习回到顶部-点击立即隐藏版.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.226415">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toTop.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/toTop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6350877">
-              <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc;n#Totop#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/json/data.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="45" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="45" />
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -121,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -132,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/正式课第四周/第一天/js/move2.js" />
-        <option value="$PROJECT_DIR$/正式课第四周/第一天/note" />
         <option value="$PROJECT_DIR$/正式课第三周/第五天/1.花瓣网瀑布流+延迟加载+回到顶部.html" />
         <option value="$PROJECT_DIR$/正式课第四周/move2.js" />
         <option value="$PROJECT_DIR$/正式课第四周/第一天/move2.js" />
@@ -183,6 +112,8 @@
         <option value="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/tab.js" />
         <option value="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/2.复习回到顶部-点击立即隐藏版.html" />
         <option value="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/toTop.js" />
+        <option value="$PROJECT_DIR$/正式课第五周/index.html" />
+        <option value="$PROJECT_DIR$/正式课第五周/event.js" />
       </list>
     </option>
   </component>
@@ -258,46 +189,6 @@
               <option name="myItemId" value="正式课第五周" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="轮播图构造函数复习" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="正式课第五周" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="轮播图构造函数复习" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="正式课第五周" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -339,7 +230,10 @@
       <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第四周\第四天" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.event.js">
+    <configuration default="false" name="event.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="event.js" working-dir="$PROJECT_DIR$/正式课第五周">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -388,6 +282,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.event.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.event.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -406,7 +308,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15047519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1061246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -467,16 +369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第二天/img/banner2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第二天/img/pre.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/正式课第四周/第二天/js/move.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12163743">
@@ -899,11 +791,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/toTop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6350877">
-          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.39181286">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc;n#Totop#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8679247">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.425731">
+          <caret line="7" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -57,4 +57,4 @@ Totop.prototype={
             this.id.hide();
         }
     }
-}  
+}
