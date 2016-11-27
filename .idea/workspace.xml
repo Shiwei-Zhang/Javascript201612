@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc3c608-3035-49c2-9d44-2866d56d76f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/apple_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/apple_1_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/apple_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/apple_2_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/apple_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/apple_3_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/apple_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/apple_4_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/bd_logo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/iphone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/iphone_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/img/事件池.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/1.柯理化函数.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/2.柯理化函数2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/4.drag2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/5.事件绑定.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/6.事件库的测试.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/js/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/js/event2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第四天/note" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第五天/bd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第五天/1.事件库的测试.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第五天/2.domReady测试.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第五天/3.jquery隔行换色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第五天/4.baidu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第五天/js/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第五天/js/jquery-2.0.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第五周/第五天/note" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/1.事件.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/bubble.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/enter.js" afterPath="" />
@@ -46,7 +31,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/img/事件池.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/note" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/第二天.zip" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/1.渐隐渐现轮播图-jquery构造函数版.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/2.复习回到顶部-点击立即隐藏版.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/img/banner1.jpg" afterPath="" />
@@ -64,6 +48,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/json/data.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/json/data2.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/正式课第五周/第四天/note" afterPath="$PROJECT_DIR$/正式课第五周/第四天/note" />
     </list>
     <ignored path="12期JS正式课.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,51 +69,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="6.事件库的测试.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/6.事件库的测试.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.830189">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-              <folding />
-            </state>
+      <file leaf-file-name="bd.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/bd.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/js/event.js">
+      <file leaf-file-name="4.baidu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/4.baidu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+            <state vertical-scroll-proportion="-6.3018866">
+              <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
               <folding>
-                <element signature="n#!!doc;n#bind#0" expanded="false" />
-                <element signature="n#!!block;n#bind#0" expanded="false" />
-                <element signature="n#!!block;n#unbind#0" expanded="false" />
-                <element signature="n#!!block;n#on#0" expanded="false" />
-                <element signature="n#!!block;n#off#0" expanded="false" />
-                <element signature="n#!!block;n#run#0" expanded="false" />
+                <element signature="e#3215#3743#0" expanded="false" />
+                <element signature="e#3763#4099#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="note" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/note">
+        <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/note">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33099416">
-              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.18245614">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/js/event2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!doc;n#bind#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,8 +104,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -149,12 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/正式课第四周/第三天/js/utils.js" />
-        <option value="$PROJECT_DIR$/正式课第四周/第五天/1.渐隐渐现轮播图.html" />
-        <option value="$PROJECT_DIR$/正式课第四周/第五天/test.html" />
-        <option value="$PROJECT_DIR$/正式课第四周/第五天/1.复习es6.html" />
-        <option value="$PROJECT_DIR$/正式课第四周/第五天/js/index.js" />
-        <option value="$PROJECT_DIR$/正式课第四周/第五天/js/utils.js" />
         <option value="$PROJECT_DIR$/正式课第四周/第五天/2.渐隐渐现轮播图.html" />
         <option value="$PROJECT_DIR$/正式课第四周/第五天/js/tab1.js" />
         <option value="$PROJECT_DIR$/正式课第四周/第五天/3.jquery体验.html" />
@@ -199,7 +159,13 @@
         <option value="$PROJECT_DIR$/正式课第五周/第四天/js/event2.js" />
         <option value="$PROJECT_DIR$/正式课第五周/第四天/js/event.js" />
         <option value="$PROJECT_DIR$/正式课第五周/第四天/6.事件库的测试.html" />
+        <option value="$PROJECT_DIR$/正式课第五周/第五天/6.事件库的测试.html" />
+        <option value="$PROJECT_DIR$/正式课第五周/第五天/js/event.js" />
         <option value="$PROJECT_DIR$/正式课第五周/第四天/note" />
+        <option value="$PROJECT_DIR$/正式课第五周/第五天/2.domReady测试.html" />
+        <option value="$PROJECT_DIR$/正式课第五周/第五天/3.jquery隔行换色.html" />
+        <option value="$PROJECT_DIR$/正式课第五周/第五天/4.baidu.html" />
+        <option value="$PROJECT_DIR$/正式课第五周/第五天/note" />
       </list>
     </option>
   </component>
@@ -211,7 +177,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1932" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -239,8 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,72 +213,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="正式课第五周" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="正式课第五周" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第四天" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12期JS正式课" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="正式课第五周" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第四天" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,19 +230,19 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\第五天" />
+      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\第五天\js" />
+      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\第四天" />
+      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\第二天" />
+      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\第二天\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第四周\第三天" />
       <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第四周\第二天" />
       <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第四周\第一天" />
       <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第三周\第三天" />
       <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第二周\第一天" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\第四天" />
-      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\第二天" />
-      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\第二天\js" />
-      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周\轮播图构造函数复习" />
-      <recent name="C:\Users\39753\Desktop\课件\12期JS正式课\正式课第五周" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.event.js">
@@ -418,10 +320,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1932" height="1048" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15360169" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -482,69 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/js/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60818714">
-          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/json/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/js/tab1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4865497">
-          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/3.jquery体验.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3018866">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/4.prependTo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3396225">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/5.表单序列化.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3962264">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/6.事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.41509435">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/7.动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3018866">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/正式课第四周/第五天/8.jquery插件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.283019">
@@ -741,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28678304">
           <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43283582">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06467662">
           <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71321696">
           <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,16 +628,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19451371">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/6.事件库的测试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.396227">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/js/event2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.6421052">
           <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="n#!!doc;n#bind#0" expanded="false" />
@@ -813,7 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/js/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.30409357">
           <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#bind#0" expanded="false" />
@@ -826,18 +664,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/6.事件库的测试.html">
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/note">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.830189">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.4526316">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/正式课第五周/第四天/note">
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/1.事件库的测试.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33099416">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.48129675">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/js/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24327485">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc;n#on#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/js/jquery-2.0.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9730994">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/2.domReady测试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41645885">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第一天/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/3.jquery隔行换色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35162094">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding>
+            <element signature="e#434#591#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/bd.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/4.baidu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3018866">
+          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
+          <folding>
+            <element signature="e#3215#3743#0" expanded="false" />
+            <element signature="e#3763#4099#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正式课第五周/第五天/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18245614">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
