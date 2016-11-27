@@ -55,7 +55,7 @@
     var oM=document.getElementById('mark');
     var oB=document.getElementById('b');
     var oImg=oB.getElementsByTagName('img')[0];
-    oS.onmouseover=function(){
+    oS.onmouseenter=function(){
         oM.style.display='block';
         oB.style.display='block';
     };
@@ -82,7 +82,7 @@
         oImg.style.left=l/(oS.offsetWidth-oM.offsetWidth)*(oB.offsetWidth-oImg.offsetWidth)+'px';
         oImg.style.top=t/(oS.offsetHeight-oM.offsetHeight)*(oB.offsetHeight-oImg.offsetHeight)+'px';
     };
-    oS.onmouseout=function(){
+    oS.onmouseleave=function(){
         oM.style.display='none';
         oB.style.display='none';
     };
