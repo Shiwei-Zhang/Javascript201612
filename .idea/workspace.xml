@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc3c608-3035-49c2-9d44-2866d56d76f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第六周/lesson/js/drag2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正式课第六周/lesson/js/event2.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/1.事件.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/bubble.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/enter.js" afterPath="" />
@@ -41,10 +39,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/js/utils.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/json/data.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/正式课第五周/轮播图构造函数复习/json/data2.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/正式课第六周/lesson/drag.html" afterPath="$PROJECT_DIR$/正式课第六周/lesson/drag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/正式课第六周/lesson/js/event.js" afterPath="$PROJECT_DIR$/正式课第六周/lesson/js/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/正式课第六周/lesson/note" afterPath="$PROJECT_DIR$/正式课第六周/lesson/note" />
     </list>
     <ignored path="12期JS正式课.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +84,7 @@
       <file leaf-file-name="drag.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/正式课第六周/lesson/drag.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4595959">
+            <state vertical-scroll-proportion="0.67171717">
               <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
               <folding>
                 <element signature="e#1038#1515#0" expanded="false" />
@@ -426,7 +420,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1038" extended-state="1" />
+    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1684322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -852,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/正式课第六周/lesson/drag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4595959">
+        <state vertical-scroll-proportion="0.67171717">
           <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
           <folding>
             <element signature="e#1038#1515#0" expanded="false" />
