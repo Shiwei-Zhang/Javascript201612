@@ -46,6 +46,7 @@ function Drag(ele){
     this.UP=processThis(this.up,this);
     on(this.ele,'mousedown',this.DOWN)
 }
+//静态属性；
 Drag.prototype=new EventEmitter;
 Drag.prototype.constructor=Drag;
 Drag.prototype.down=function(e){//保存位置
@@ -109,25 +110,6 @@ Drag.prototype.border=function(){
     this.on('selfMove',this.moveBorder);
     this.on('selfUp',this.removeBorder);
 };
-/*Drag.prototype.addBorder=function(){
-    this.oDiv=document.createElement('p');
-    this.oDiv.style.width=this.ele.offsetWidth+'px';
-    this.oDiv.style.height=this.ele.offsetHeight+'px';
-    this.oDiv.style.left=this.ele.offsetLeft-1+'px';
-    this.oDiv.style.top=this.ele.offsetTop-1+'px';
-    this.oDiv.style.border='1px dashed green';
-    this.oDiv.style.position='absolute';
-    this.ele.parentNode.appendChild(this.oDiv);
-};*/
-/*Drag.prototype.moveBorder=function(e){
-    this.ele.style.display='none';
-    this.oDiv.style.left=this.l+e.clientX-this.x+'px';
-    this.oDiv.style.top=this.t+e.clientY-this.y+'px';
-};*/
-/*Drag.prototype.removeBorder=function(){
-    this.oDiv.style.display='none';
-    this.ele.style.display='block';
-};*/
 Drag.prototype.addBorder=function(){
     this.ele.style.border='2px dashed red';
     this.oldColor=utils.css(this.ele,'backgroundColor');
@@ -142,6 +124,92 @@ Drag.prototype.removeBorder=function(){
     this.ele.style.border='none';
     this.ele.innerHTML=this.oldHtml;
 };
+Drag.prototype.jump=function(){
+    this.on('selfDown',creaseIndex).on('selfDown',clearEffect).on('selfMove',getSpeedX).on('selfUp',fly).on('selfUp',drop);
+};
+//photo入口；
+Drag.prototype.photo=function(aEle){
+    this.aLi=aEle;
+    this.on('selfDown',this.creaseIndex);
+    this.on('selfMove',this.hited);
+    this.on('selfUp',this.changePos);
+};
+Drag.prototype.zIndex=0;
+Drag.prototype.creaseIndex=function(){
+    this.ele.style.zIndex=++Drag.prototype.zIndex;//原型；  Drag.xxx 类的静态方法 static
+};
+Drag.prototype.isHited=function(l,r){
+    if(l.offsetLeft+l.offsetWidth<r.offsetLeft||l.offsetTop+l.offsetHeight<r.offsetTop||l.offsetLeft>r.offsetLeft+r.offsetWidth||l.offsetTop>r.offsetTop+r.offsetHeight){
+        return false;
+    }else{
+        return true;
+    }
+};
+Drag.prototype.hited=function(){
+    //找到跟当前元素发生碰撞的一些元素；
+    this.ary=[];
+    var aLi=this.aLi;
+    for(var i=0; i<aLi.length; i++){
+        var oLi=aLi[i];
+        if(this.ele===oLi) continue;
+        if(this.isHited(this.ele,oLi)){
+            this.ary.push(oLi);
+            oLi.style.background='red';
+        }else{
+            oLi.style.background=oLi.oldColor;
+        }
+    }
+};
+Drag.prototype.changePos=function(){
+    var ary=this.ary;//[li.dis, li.dis, li, li]
+    if(ary && ary.length){
+        for(var i=0; i<ary.length; i++){
+            var oLi=ary[i];
+            oLi.dis=Math.pow(this.ele.offsetLeft-oLi.offsetLeft,2)+Math.pow(this.ele.offsetTop-oLi.offsetTop,2);
+            oLi.style.background=oLi.oldColor;
+        }
+        ary.sort(function(a,b){
+            return a.dis-b.dis;
+        });
+        var shortest=ary[0];
+        this.ele.style.background='purple';
+        shortest.style.background='purple';
+        animate({
+            id:this.ele,
+            target:{
+                left:shortest.l,
+                top:shortest.t
+            },
+            duration:500,
+            effect:3
+        });
+        animate({
+            id:shortest,
+            target:{
+                left:this.ele.l,
+                top:this.ele.t
+            },
+            duration:500,
+            effect:3
+        });
+        //当位置改变的时候，一定要更新元素身上存的位置；
+        var l=this.ele.l,t=this.ele.t;
+        this.ele.l=shortest.l,this.ele.t=shortest.t;
+        shortest.l=l,shortest.t=t;
+        this.ary=[];
+    }else{
+        animate({
+            id:this.ele,
+            target:{
+                left:this.ele.l,
+                top:this.ele.t
+            },
+            duration:500,
+            effect:3
+        })
+    }
+};
+
 
 
 
