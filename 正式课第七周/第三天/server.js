@@ -48,10 +48,10 @@ var server1 = http.createServer(function (req, res) {
     //->2)增加客户信息:在NODE中获取客户端请求主体中的内容,我们使用request.on('data')和request.on('end')两个事件处理
     if (pathname === '/addInfo') {
         var requestStr = '';
-        res.on('data', function (chunk) {
+        req.on('data', function (chunk) {
             requestStr += chunk;
         });
-        res.on('end', function () {
+        req.on('end', function () {
             requestStr = JSON.parse(requestStr);
             requestStr['id'] = customData.length === 0 ? 1 : parseFloat(customData[customData.length - 1]['id']) + 1;
             customData.push(requestStr);
@@ -69,11 +69,11 @@ var server1 = http.createServer(function (req, res) {
     //->3)修改客户信息
     if (pathname === '/updateInfo') {
         requestStr = '';
-        res.on('data', function (chunk) {
+        req.on('data', function (chunk) {
             requestStr += chunk;
         });
         var flag = false;
-        res.on('end', function () {
+        req.on('end', function () {
             requestStr = JSON.parse(requestStr);
             customData.forEach(function (item, index) {
                 if (requestStr['id'] == item['id']) {

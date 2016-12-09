@@ -22,7 +22,7 @@ function ajax(options) {
     var xhr = new XMLHttpRequest;
     if (/^(get|delete|head)$/i.test(_default.type)) {
         if (_default.cache === false) {
-            var char = _default.url.indexOf('?') ? '&' : '?';
+            var char = _default.url.indexOf('?') > -1 ? '&' : '?';
             _default.url += char + '_=' + Math.random();
         }
     }
