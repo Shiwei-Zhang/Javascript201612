@@ -63,6 +63,9 @@
 
 
 
+选择器$() ->CSS选择器  ->jQuery类的一个实例,jQuery.prototype
+                     ->jQuery对象
+
 
 
 
