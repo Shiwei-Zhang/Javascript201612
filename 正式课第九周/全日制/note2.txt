@@ -39,6 +39,40 @@ http://old.zhufengpeixun.cn/qianduanjishuziliao/mobileDevelopment/2016-07-02/480
     ->上线前：我们使用工具或者NODE把LESS编译为正常的CSS，项目引入的也是正常的CSS，然后在上线
 
 
+=======================================
+一个容器的背景颜色实现透明
+  ->background: rgba(255, 255, 255, 0.8); 不兼容IE6~8，在不兼容的情况下连基本的背景颜色都没有
+
+  ->
+  background:#FFF;
+  opacity:0.8;
+  filter:alpha(opacity=80);
+  这样写的话,会导致里面的子元素也都跟着透明了
+
+  ->多嵌套一层
+
+=====================================
+在CSS中制作一个三角箭头
+  ->切图:简单而粗暴的方式
+
+  ->设置盒子的两个边框,然后旋转一定的角度来实现箭头 [PC端不兼容]
+     width: 20px;
+     height: 20px;
+     border-top: 3px solid red;
+     border-right: 3px solid red;
+     -webkit-transform: rotate(45deg);
+     transform: rotate(45deg);
+
+  ->使用&gt|&lt大于号和小于号来实现(但是受字体的限制)
+
+  ->ICON图标/SVG图标/字体图标/CANVAS
+
+  ->两个三角形的叠加
+
+
+
+
+
 
 
 
