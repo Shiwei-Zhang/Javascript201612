@@ -69,6 +69,65 @@ JS插件：IScroll
 数据绑定：EJS
 本地存储：localStorage
 
+==========================================
+.nav {
+  padding: .1rem 0;
+  li {
+    float: left;
+    width: 16%; /*按照父级UL内容的宽度,划分100份,我们这里占了16份*/
+    &:nth-child(6n+1) {
+      margin-left: 2%;
+    }
+
+    a {
+      display: block;
+      height: .74rem;
+      line-height: .74rem;
+      text-align: center;
+      color: @color-text;
+      font-size: .32rem;
+    }
+  }
+}
+====================
+.nav {
+  padding: .1rem 0;
+  li {
+    float: left;
+    width: 100%/6;
+
+    a {
+      display: block;
+      height: .74rem;
+      line-height: .74rem;
+      text-align: center;
+      color: @color-text;
+      font-size: .32rem;
+    }
+  }
+}
+===================
+Zepto就是移动端的小型JQ,用法和JQ一样，但是Zepto比JQ库小很多:
+ ->Zepto不兼容IE低版本浏览器,它是专门为移动端开发,这样在编写Zepto库的时候,不需要考虑兼容问题,节省了很多的代码
+ ->Zepto只是实现了JQ中最常用的方法,例如:children、find、filter、addClass、css、attr、ajax...这些Z都支持而且和JQ的用法一样；除此之外也有一些Z不支持的：stop、slideDown、slideUp... (报错:$(...).stop is not a function)
+
+Zepto更适合移动端的开发,移动端的开发事件大部分都是由TOUCH事件模拟出来的,例如：点击、双击、单击、长按、滑动(四个方向)。Zepto把我们平时常用的操作封装成为了方法,我们无需自己在使用touchstart、touchmove、touchend三个事件模拟.
+
+  $('#box').tap(function(){
+
+  });
+  $('#box').singleTap
+  $('#box').doubleTap
+  $('#box').longTap
+  $('#box').swipe
+  $('#box').swipeLeft
+  $('#box').swipeRight(function(){
+
+  });
+
+
+
+
 
 
 
