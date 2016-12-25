@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>珠峰培训</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link type="image/x-icon" rel="icon" href="img/icon-logo.png"/>
+
+    <!--import needed css-->
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet/less" href="css/index.less"/>
+    <script src="js/less-2.5.3.min.js"></script>
+
+    <!--REM-->
+    <script>
+        ~function () {
+            var winW = document.documentElement.clientWidth;
+            //->控制在640以内在计算REM的换算比例,640以外都已设计稿的尺寸为最大值即可,这样在PAD上或者PC上看到的最大尺寸就是设计稿的
+            if (winW <= 640) {
+                document.documentElement.style.fontSize = winW / 640 * 100 + 'px';
+            }
+        }();
+    </script>
+</head>
+<body>
+<main class="main">
+    <!--HEADER-->
+    <header class="header">
+        <h1 class="logo">
+            <a href="#">腾讯体育</a>
+        </h1>
+        <a href="#" class="type">NBA</a>
+        <a href="#" class="login">登录</a>
+        <a href="javascript:;" class="menu"></a>
+    </header>
+
+    <!--NAV-->
+    <nav class="nav">
+        <ul>
+            <li><a href="#">NBA</a></li>
+            <li><a href="#">CBA</a></li>
+            <li><a href="#">英超</a></li>
+            <li><a href="#">欧冠</a></li>
+            <li><a href="#">亚冠</a></li>
+            <li><a href="#">西甲</a></li>
+            <li><a href="#">意甲</a></li>
+            <li><a href="#">法甲</a></li>
+            <li><a href="#">德甲</a></li>
+            <li><a href="#">中超</a></li>
+            <li><a href="#">NFL</a></li>
+            <li><a href="#">综合</a></li>
+            <li><a href="#">欧洲</a></li>
+            <li><a href="#">社区</a></li>
+            <li><a href="#">下载</a></li>
+        </ul>
+    </nav>
+    
+    <!--VIDEO-->
+    <section class="video">
+        <video src=""></video>
+    </section>
+
+    <!--MATCH-->
+    <section class="match">
+        <div class="top">
+            <div class="team teamLeft">
+                <img src="" alt=""/>
+                <span>112</span>
+            </div>
+            <div class="startTime">11月11日 09:00</div>
+            <div class="team teamRight">
+                <img src="" alt=""/>
+                <span>112</span>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="progress"></div>
+        </div>
+        <div class="bottom">
+            <div class="support supportLeft">2239</div>
+            <div class="descript">NBA常规赛</div>
+            <div class="support supportRight">2239</div>
+        </div>
+    </section>
+
+    <!--PLAYER-->
+    <section class="player">
+        <ul class="wrapper">
+            <li><a href="#">
+                <div>
+                    <img src="" alt=""/>
+                    <span>02:12</span>
+                </div>
+                <p>鹈鹕112-106雄鹿,帕克空砍33分,浓眉32分上演冲天暴扣</p>
+            </a></li>
+
+        </ul>
+    </section>
+</main>
+</body>
+</html>
